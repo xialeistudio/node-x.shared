@@ -4,6 +4,9 @@
   },
   "extends": "eslint:recommended",
   "rules": {
+    "strict": [
+      "error"
+    ],
     "indent": [
       "error",
       2

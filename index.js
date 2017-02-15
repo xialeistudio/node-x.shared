@@ -4,5 +4,6 @@
  */
 'use strict';
 module.exports = {
-  amqp: require('./lib/amqp')
+  amqp: require('./lib/amqp'),
+  memcached: require('./lib/memcached')
 };
