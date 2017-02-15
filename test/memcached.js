@@ -3,15 +3,15 @@
  * @author xialeistudio<1065890063@qq.com>
  */
 'use strict';
-var config = require('./memcached.config');
-var Memcached = require('../lib/memcached');
-var memcached = new Memcached(config);
 var mocha = require('mocha');
 var assert = require('assert');
 var describe = mocha.describe;
 var it = mocha.it;
 
 describe.skip('test lib/memcached.js', function () {
+  var config = require('./memcached.config');
+  var Memcached = require('../lib/memcached');
+  var memcached = new Memcached(config);
   this.timeout(10000);
   var now = Date.now();
   it('set key', function (done) {

@@ -17,6 +17,7 @@
     "amqplib": "^0.5.1",
     "bluebird": "^3.4.7",
     "debug": "^2.6.1",
+    "excel-stream": "^1.1.1",
     "memcached": "^2.2.2",
     "node-fetch": "^1.6.3",
     "qiniu": "^6.1.13"
