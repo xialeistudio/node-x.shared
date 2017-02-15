@@ -1,0 +1,13 @@
+{
+  "name": "x.shared",
+  "version": "1.0.0",
+  "description": "node项目常用类库",
+  "main": "index.js",
+  "scripts": {},
+  "keywords": [],
+  "author": "xialeistudio <xialeistudio@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "bluebird": "^3.4.7"
+  }
+}
