@@ -20,7 +20,8 @@
     "excel-stream": "^1.1.1",
     "memcached": "^2.2.2",
     "node-fetch": "^1.6.3",
-    "qiniu": "^6.1.13"
+    "qiniu": "^6.1.13",
+    "xlsx-writestream": "^0.4.0"
   },
   "devDependencies": {
     "eslint": "^3.15.0",

@@ -9,7 +9,7 @@ var assert = require('assert');
 var describe = mocha.describe;
 var it = mocha.it;
 
-describe('test lib/excel-reader.js', function () {
+describe.skip('test lib/excel-reader.js', function () {
   this.timeout(0);
   it('test read', function (done) {
     excelReader(__dirname + '/test.xlsx')
