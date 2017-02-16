@@ -25,7 +25,7 @@ describe.skip('test lib/passport.js', function () {
     }).catch(done);
   });
   it('getPushDevices', function (done) {
-    passport.getPushDevices('oYTgBuJQH96pV2Bb9mzei5y4G9EM').then(function (devices) {
+    passport.getPushDevices('oYTgBuGIKhenb4hZ_6paVNFFvAPc').then(function (devices) {
       assert(devices.length > 0);
       done();
     }).catch(done);
