@@ -9,7 +9,7 @@ var mocha = require('mocha');
 var describe = mocha.describe;
 var it = mocha.it;
 
-describe('test lib/excel-writer.js', function () {
+describe.skip('test lib/excel-writer.js', function () {
   this.timeout(0);
   it('test write', function (done) {
     var writer = excelWriter(__dirname + '/data.xlsx');

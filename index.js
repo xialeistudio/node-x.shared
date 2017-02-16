@@ -8,5 +8,6 @@ module.exports = {
   memcached: require('./lib/memcached'),
   qiniu: require('./lib/qiniu'),
   excelReader: require('./lib/excel-reader'),
-  excelWriter: require('./lib/excel-writer')
+  excelWriter: require('./lib/excel-writer'),
+  passport: require('./lib/passport')
 };
