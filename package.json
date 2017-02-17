@@ -32,5 +32,16 @@
   "pre-commit": [
     "lint",
     "test"
-  ]
+  ],
+  "directories": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xialeistudio/node-x.shared.git"
+  },
+  "bugs": {
+    "url": "https://github.com/xialeistudio/node-x.shared/issues"
+  },
+  "homepage": "https://github.com/xialeistudio/node-x.shared#readme"
 }
